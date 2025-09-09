@@ -2,10 +2,6 @@
 * **This is a mod library that includes various mods to improve gameplay experience, upgrade visuals, and slightly boost FPS.**
 * **All mods are open-source, so you can suggest changes or add your own tweaks to suit your personal needs.**
 
-> [!NOTE]
->  If you want faster resource loading, delete the "Folder-SRC" folder and keep only ".vpk".
-
-
 | Mods | Features | Status |
 | --- | ------ | ------ |
 | Graphics-Config | Boost FPS | ✅ |
