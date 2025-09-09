@@ -14,6 +14,8 @@
 | Viewmodel-FixPack  | Fixes Viewmodel issues when using viewmodel_fov above 90, such as funny bugs and glitches (e.g., Spy’s and Soldier’s “mystery arms”). This mod fixes all Viewmodel-related errors. | ✅ |
 | Visual-FixPack  | A visual overhaul pack to make it look more stable and appealing. | ✅ |
 
+* **launch options:** `-novid -nojoy -particles 1 -nohltv -nosteamcontroller -precachefontchars +sv_allow_point_servercommand always`
+
 ## 📦 Download 
 - 🔗 [Download Graphics-Config](https://github.com/K-M19/TF2-Pack/releases/download/Main/Graphics-Config.zip) 
 - 🔗 [Download Only VPK File](https://github.com/K-M19/TF2-Pack/releases/tag/Main)
