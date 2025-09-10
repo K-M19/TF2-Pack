@@ -18,6 +18,6 @@
 
 ## 📦 Download 
 - 🔗 [Download My Config and Mods](https://github.com/K-M19/TF2-Pack/releases/download/Main/My_Config_and_Mods_V1.1.zip)
-- 🔗 [Download Graphics-Config](https://github.com/K-M19/TF2-Pack/releases/download/Main/Graphics-Config_V1.3.zip)
+- 🔗 [Download Graphics-Config](https://github.com/K-M19/TF2-Pack/releases/download/Main/Graphics-Config_V1.2.zip)
 - 🔗 [Download Only VPK File](https://github.com/K-M19/TF2-Pack/releases/tag/Main)
 - 🔗 [Download Full SRC](https://github.com/K-M19/TF2-Pack/archive/refs/heads/main.zip) 
