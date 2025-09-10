@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/gamemode/gamemode_pd_reticle_red"
+	"$alpha" 1
+	"$vertexalpha" 1
+}

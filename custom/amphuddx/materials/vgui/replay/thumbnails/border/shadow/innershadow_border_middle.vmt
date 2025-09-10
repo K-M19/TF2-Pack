@@ -1,0 +1,9 @@
+"unlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/border/shadow/innershadow_border_middle"
+	"$translucent" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+	"$alphatest"	"1"
+}
+

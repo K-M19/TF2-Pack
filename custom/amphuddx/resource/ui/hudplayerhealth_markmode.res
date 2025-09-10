@@ -1,0 +1,47 @@
+"Resource/UI/HudPlayerHealth.res"
+{	
+	"PlayerStatusMarkMode"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusMarkMode"
+		"xpos"			"0"	
+		"ypos"			"0"	
+		"zpos"			"5"
+		"wide"			"60"	
+		"tall"			"60"	
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/markmode/mark_color"
+		"scaleImage"	"1"	
+	}
+	"PlayerStatusMarkModeBonus"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusMarkModeBonus"
+		"xpos"			"0"	
+		"ypos"			"0"	
+		"zpos"			"6"
+		"wide"			"60"	
+		"tall"			"60"
+		"alpha"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/markmode/mark_bonus"
+		"scaleImage"	"1"	
+	}
+	"PlayerStatusMarkModeLow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusMarkModeLow"
+		"xpos"			"0"	
+		"ypos"			"0"	
+		"zpos"			"6"
+		"wide"			"60"	
+		"tall"			"60"	
+		"alpha"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/markmode/mark_low"
+		"scaleImage"	"1"	
+	}
+}

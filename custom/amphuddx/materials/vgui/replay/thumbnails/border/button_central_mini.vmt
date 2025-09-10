@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\replay\thumbnails\border\button_central_mini"
+	"$translucent" 1
+	"$ignorez" 1
+}

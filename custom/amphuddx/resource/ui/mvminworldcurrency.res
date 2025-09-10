@@ -1,0 +1,53 @@
+"Resource/UI/MvMInWorldCurrency.res"
+{
+	"HudWeaponAmmoBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudWeaponAmmoBG"
+		"xpos"			"rs1"
+		"ypos"			"0" //"r169+100"
+		"zpos"			"-1"
+		"wide"			"130"
+		"tall"			"65"
+		"visible"		"1"
+		"enabled"		"1"		
+		"scaleImage"	"1"	
+		"image"			"replay/thumbnails/hud_right_mvm_currency"
+		"proportionaltoparent"		"1"
+	}
+	"CurrencyGood"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyGood"
+		"font"			"HudFontSmallBold"
+		"xpos"			"r170"
+		"ypos"			"24"
+		"zpos"			"3"
+		"wide"			"130"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"TanDarker"
+		"textAlignment"	"east"	
+		"labelText"		"%currency%"
+		"proportionaltoparent"		"1"
+	}
+	
+	"CurrencyBad"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyBad"
+		"font"			"HudFontSmallBold"
+		"xpos"			"r170"
+		"ypos"			"24"
+		"zpos"			"3"
+		"wide"			"130"
+		"tall"			"40"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"ItemRarityAncient_GreyedOut"
+		"textAlignment"	"east"	
+		"labelText"		"%currency%"
+		"proportionaltoparent"		"1"
+	}
+}

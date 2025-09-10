@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/credits/sparkless"
+	"$translucent" 1
+	"$ignorez" 1
+}

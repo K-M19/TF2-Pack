@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/border/death_panel_blue"
+	"$allowAlphaToCoverage" 1
+	"$alphatest" 1
+}

@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"vgui/replay/thumbnails/gamemode/gamemode_pd_reticle"
+	"$translucent" 1
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+	"%keywords" "tf"
+}

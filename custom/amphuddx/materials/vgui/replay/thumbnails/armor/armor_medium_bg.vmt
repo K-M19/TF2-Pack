@@ -1,0 +1,8 @@
+patch
+{
+	include materials/vgui/replay/thumbnails/armor/armor_light_bg.vmt
+	insert
+	{
+		"$baseTexture" "vgui/replay/thumbnails/armor/armor_medium_mask"
+	}
+}

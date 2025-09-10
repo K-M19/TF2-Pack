@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/team_select/sign_random"
+	"$model" "1"
+}

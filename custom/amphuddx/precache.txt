@@ -1,0 +1,87 @@
+"resource/ui/mainmenuoverride.res"
+{
+	"objectives_flagpanel_compass_grey_with_red"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_flagpanel_compass_grey_with_red"
+	}
+	"objectives_flagpanel_compass_red"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_flagpanel_compass_red"
+	}
+	"objectives_flagpanel_compass_red_noarrow"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_flagpanel_compass_red_noarrow"
+	}
+	"objectives_ticketcase"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_ticketcase"
+	}
+	"objectives_ticketcase_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_ticketcase_blue"
+	}
+	"objectives_ticketcase_red"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_ticketcase_red"
+	}
+	"objectives_australiumpanel_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_australiumpanel_blue"
+	}
+	"objectives_australiumpanel_red"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_australiumpanel_red"
+	}
+	"objectives_flagpanel_carried_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_flagpanel_carried_blue"
+	}
+	"objectives_flagpanel_carried_red"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_flagpanel_carried_red"
+	}
+	"objectives_flagpanel_compass_blue"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_flagpanel_compass_blue"
+	}
+	"objectives_flagpanel_compass_blue_noarrow"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_flagpanel_compass_blue_noarrow"
+	}
+	"objectives_flagpanel_compass_grey"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/objectives_flagpanel_compass_grey"
+	}
+	"glyph_alert"
+	{
+		"ControlName"	"ImagePanel"
+		"wide"			"0"
+		"image"			"../hud/glyph_alert"
+	}
+}

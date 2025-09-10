@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/credits/vexcenot"
+	"$translucent" 1
+	"$ignorez" 1
+}

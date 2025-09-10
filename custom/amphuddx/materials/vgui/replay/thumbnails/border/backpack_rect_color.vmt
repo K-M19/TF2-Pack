@@ -1,0 +1,12 @@
+"unlitGeneric"
+{
+	"$baseTexture" "vgui/replay/thumbnails/border/backpack_rect_color"
+	"$detail" "vgui/replay/thumbnails/border/backpack_rect_detail"
+	"$detailblendmode" 5
+	"$detailscale" 1
+	
+	"$allowAlphaToCoverage" 1
+	"$alphatest" 1
+	
+	"$vertexcolor" 1
+}

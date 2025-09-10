@@ -1,0 +1,8 @@
+"Patch"
+{
+	include materials/vgui/replay/thumbnails/base/hud_yellow.vmt
+	insert
+	{
+		"$detail" "vgui/replay/thumbnails\hud_left_misc_primary_double_mask"
+	}
+}

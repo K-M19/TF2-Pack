@@ -1,0 +1,330 @@
+#base "MatchMakingDashboardSidePanel.res"
+
+"Resource/UI/MatchMakingDashboardCasualCriteria.res"
+{
+	"MVMModeSelect"
+	{
+		"fieldName"		"MVMModeSelect"
+		"xpos"			"r0"
+		"ypos"			"30"
+		"zpos"			"10001"
+		"wide"			"280"
+		"tall"			"f30"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+	}
+
+//	"Title"
+//	{
+//		"ControlName"		"ImagePanel"
+//		"fieldName"			"Title"
+//		"xpos"				"6"
+//		"ypos"				"6"
+//		"zpos"				"98"
+//		"wide"				"f12"
+//		"tall"				"62"
+//		"proportionaltoparent"	"1"
+//		"border"			"StoreInnerShadowBorder"
+//		"fgcolor_override"	"235 226 202 255"
+//	}
+//
+//	"MvMLogoImage"
+//	{
+//		"ControlName"	"ImagePanel"
+//		"fieldName"		"MvMLogoImage"
+//		"xpos"			"cs-0.5"
+//		"ypos"			"2"
+//		"zpos"			"99"
+//		"wide"			"200"
+//		"tall"			"100"
+//		"visible"		"1"
+//		"enabled"		"1"
+//		"mouseinputenabled" "0"
+//		"image"			"mvm/mvm_logo"
+//		"scaleImage"	"1"
+//		"proportionaltoparent"	"1"
+//	}
+
+	"Title"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"Title"
+		"xpos"		"6"
+		"ypos"		"6"
+		"zpos"		"99"
+		"wide"		"f12"
+		"tall"		"20"
+		"proportionaltoparent"	"1"
+		"labeltext"		"#TF_Matchmaking_HeaderMVM"
+		"textAlignment"	"center"
+		"font"			"HudFontSmallBold"
+		"border"		"StoreInnerShadowBorder"
+		"fgcolor_override"	"235 226 202 255"
+		
+		"mouseinputenabled"	"0"
+	}
+
+	"MannUpGroupBox"
+	{
+		//"ControlName"	"EditablePanel"
+		"fieldName"		"MannUpGroupBox"
+		"xpos"			"6"
+		"ypos"			"30"
+		"zpos"			"1"
+		"wide"			"f12"
+		"tall"			"o1"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"StoreInnerShadowBorder"
+		"proportionaltoparent"	"1"
+
+		"MannUpImageContainer"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"MannUpImageContainer"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"wide"			"f8"
+			"tall"			"f8"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"MannUpImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"MannUpImage"
+				"xpos"			"0"
+				"ypos"			"rs1"
+				"zpos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"1"
+				"enabled"		"1"
+				"mouseinputenabled" "0"
+				"image"			"mvm/mannup"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+			"Gradient"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"Gradient"
+				"xpos"			"0"
+				"ypos"			"rs1"
+				"zpos"			"1"
+				"wide"			"f0"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleimage"	"1"
+				"proportionaltoparent"	"1"
+
+				"image"			"gradient_pure_black"
+			}
+		}
+
+		"Shadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Shadow"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"4"
+			"wide"			"f8"
+			"tall"			"f8"
+			"visible"		"1"
+			"enabled"		"1"
+			"mouseinputenabled" "0"
+			"border"		"StoreInnerShadowBorderInverted"
+			"proportionaltoparent"	"1"
+		}
+
+		"PlayNowButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"PlayNowButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"Command"		"mannup"
+			"paintbackground"	"0"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+		}
+
+		"MannUpLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"MannUpLabel"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1"
+			"zpos"			"5"
+			"wide"			"f50"
+			"tall"			"60"
+			"font"			"HudFontMediumSmallBold"
+			"labelText"		"#TF_MvM_MannUp"
+			"textAlignment"	"north-west"
+			"fgcolor_override"	"TanLight"
+			"proportionaltoparent"	"1"
+		}
+
+		"BraggingRightsLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"BraggingRightsLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"#TF_MvM_BraggingRightsExplaination"
+			"textAlignment"	"north-west"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1"
+			"zpos"			"5"
+			"wide"			"f50"
+			"tall"			"40"
+			"wrap" "1"
+			"fgcolor_override"	"TanLight"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+		}
+	}
+
+	"PracticeGroupBox"
+	{
+		//"ControlName"	"EditablePanel"
+		"fieldName"		"PracticeGroupBox"
+		"xpos"			"6"
+		"ypos"			"302"
+		"zpos"			"100"
+		"wide"			"f12"
+		"tall"			"144"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"StoreInnerShadowBorder"
+		"proportionaltoparent"	"1"
+
+		"BootcampImageContainer"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"BootcampImageContainer"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"wide"			"f8"
+			"tall"			"f8"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"BootcampImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"BootcampImage"
+				"xpos"			"0"
+				"ypos"			"rs1"
+				"zpos"			"0"
+				"wide"			"f0"
+				"tall"			"o1"
+				"visible"		"1"
+				"enabled"		"1"
+				"mouseinputenabled" "0"
+				"image"			"mvm/bootcamp"
+				"scaleImage"	"1"
+				"proportionaltoparent"	"1"
+			}
+			"Gradient"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"Gradient"
+				"xpos"			"0"
+				"ypos"			"rs1"
+				"zpos"			"1"
+				"wide"			"f0"
+				"tall"			"120"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleimage"	"1"
+				"proportionaltoparent"	"1"
+
+				"image"			"gradient_pure_black"
+			}
+		}
+
+		"Shadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"Shadow"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"4"
+			"wide"			"f8"
+			"tall"			"f8"
+			"visible"		"1"
+			"enabled"		"1"
+			"mouseinputenabled" "0"
+			"border"		"StoreInnerShadowBorderInverted"
+			"proportionaltoparent"	"1"
+		}
+
+		"PracticeButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"PracticeButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"20"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		""
+			"Command"		"bootcamp"
+			"paintbackground"	"0"
+			"actionsignallevel"	"2"
+			"proportionaltoparent"	"1"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+		}
+
+		"BootCampLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"BootCampLabel"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1"
+			"zpos"			"5"
+			"wide"			"f50"
+			"tall"			"50"
+			"font"			"HudFontMediumSmallBold"
+			"labelText"		"#TF_MvM_BootCamp"
+			"textAlignment"	"north-west"
+			"fgcolor_override"	"TanLight"
+			"proportionaltoparent"	"1"
+		}
+
+		"CommunityServerLabel"
+		{
+			"ControlName"	"Label"
+			"fieldName"		"CommunityServerLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"#TF_MvM_PracticeExplaination"
+			"textAlignment"	"north-west"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1"
+			"zpos"			"5"
+			"wide"			"f50"
+			"tall"			"30"
+			"wrap" "1"
+			"fgcolor_override"	"TanLight"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/button/button_holder_central_alt"
+	"$translucent" 1
+	"$ignorez" 1
+}

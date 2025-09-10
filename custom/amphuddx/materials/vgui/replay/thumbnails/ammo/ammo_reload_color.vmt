@@ -1,0 +1,35 @@
+"UnlitGeneric"
+{
+	"$translucent" 			1
+	"$baseTexture" 			"vgui/replay/thumbnails/ammo/ammo_color"
+
+	"$detail"				"vgui/replay/thumbnails/ammo/ammo_reload_mask"
+	"$detailscale" 			1
+	"$detailblendmode" 		4
+	"$detailblendfactor"	1
+
+	"$angle" 			0.0
+	"$translate" 		"[0.0 0.0]"
+	"$center" 			"[0.5 0.5]"
+	
+	"$vertexcolor" 1
+	"$ignorez" 1
+	
+	"Proxies"
+	{
+		"LinearRamp"
+		{
+			"rate" 			-120
+			"initialValue" 	0.0
+			"resultVar" 	"$angle"
+		}
+		"TextureTransform"
+		{
+			"translateVar" 	"$translate"
+			"rotateVar" 	"$angle"
+			"centerVar" 	"$center"
+			"resultVar" 	"$detailtexturetransform"
+		}
+	}
+}
+
